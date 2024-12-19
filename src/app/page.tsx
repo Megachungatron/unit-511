@@ -476,7 +476,6 @@ export default function ParkingInterface() {
               </div>
             </div>
           </div>
-
           {showErrorScreen && (
               <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div className="bg-white p-8 rounded-lg shadow-lg text-center">
@@ -491,3 +490,4 @@ export default function ParkingInterface() {
       </div>
   )
 }
+
