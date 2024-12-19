@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Home, HelpCircle, Globe, Info } from 'lucide-react'
