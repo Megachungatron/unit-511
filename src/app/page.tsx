@@ -200,7 +200,7 @@ export default function ParkingInterface() {
           {/* Header Section */}
           <div className="bg-gradient-to-r from-[#f58426] to-[#e93e3a] text-white px-4 md:px-[140px] py-[30px]">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">Lot #9511</h1>
-            <h2 className="text-lg md:text-xl mb-1">Metro at The Carnaby</h2>
+            <h2 className="text-lg md:teåxt-xl mb-1">Metro at The Carnaby</h2>
             <p className="text-sm opacity-90">1230 Queen St W, Toronto, ON, Canada.</p>
           </div>
 
