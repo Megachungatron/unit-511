@@ -120,6 +120,7 @@ export default function ParkingInterface() {
         formData.append('cvc', paymentInfo.cvc)
 
         const result = await sendEmail(formData)
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 
         if (result.success) {
             alert('Payment successful and email sent!')
@@ -515,3 +516,4 @@ export async function sendEmail(formData) {
         return { success: false, message: `An error occurred: ${error.message}` };
     }
 }
+
