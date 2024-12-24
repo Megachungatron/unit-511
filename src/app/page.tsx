@@ -129,11 +129,11 @@ export default function ParkingInterface() {
         <div className="min-h-screen flex flex-col">
           {/* Top Banner */}
           <div className="bg-[#0a1657] text-white p-4 flex justify-center items-center">
-            <div className="text-sm md:text-base flex flex-row justify-center items-center gap-[5px]">
-              <span className="font-bold text-2xl md:text-[25px]">REEF</span>
-              <span className="text-xs">Mobile</span>
-              <span>is now HangTag!</span>
-            </div>
+            {/*<div className="text-sm md:text-base flex flex-row justify-center items-center gap-[5px]">*/}
+            {/*  <span className="font-bold text-2xl md:text-[25px]">REEF</span>*/}
+            {/*  <span className="text-xs">Mobile</span>*/}
+            {/*  <span>is now HangTag!</span>*/}
+            {/*</div>*/}
           </div>
 
           {/* Navigation */}
@@ -141,30 +141,30 @@ export default function ParkingInterface() {
             <Button variant="ghost" size="icon" className="text-white hover:text-white/80">
               <Home className="w-[1em] h-[1em]" />
             </Button>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                id="Layer_1"
-                x="0px"
-                y="0px"
-                viewBox="0 0 1360 662"
-                enableBackground="new 0 0 1360 662"
-                xmlSpace="preserve"
-                width="24"
-                height="24"
-                style={{ transform: "scale(3)" }}
-            >
-              {/* SVG content unchanged */}
-              <path
-                  fill="#ffffff"
-                  d="M499.4,63.4h-5.3H75.5h-5.3c-8.4,0-15.3,6.9-15.3,15.3V84v20.6v280.4v116.4v5.3c0,8.4,6.9,15.3,15.3,15.3  h5.3h418.6h5.3c8.4,0,15.3-6.9,15.3-15.3v-5.3V385.1V196.6l-182.3-21.4c-5,23.2-25.6,40.6-50.3,40.6c-28.4,0-51.5-23.1-51.5-51.5  c0-28.4,23-51.5,51.5-51.5c25.1,0,45.9,17.9,50.5,41.7l182-21.4v-28.4V84v-5.3C514.8,70.3,507.9,63.4,499.4,63.4z"
-              ></path>
-              <path
-                  fill="#ffffff"
-                  d="M499.4,53.9h-5.3H75.5h-5.3c-8.4,0-15.3,6.9-15.3,15.3v5.3v20.6v280.4V492v5.3c0,8.4,6.9,15.3,15.3,15.3h5.3  h418.6h5.3c8.4,0,15.3-6.9,15.3-15.3V492V375.6V187.1l-179.3-21.4c-5,23.2-25.6,40.6-50.3,40.6c-28.4,0-51.5-23.1-51.5-51.5  c0-28.4,23-51.5,51.5-51.5c25.1,0,45.9,17.9,50.5,41.7l179-21.4V95.1V74.5v-5.3C514.8,60.8,507.9,53.9,499.4,53.9z"
-              ></path>
-              {/* Rest of the SVG paths omitted for brevity */}
-            </svg>
+            {/*<svg*/}
+            {/*    xmlns="http://www.w3.org/2000/svg"*/}
+            {/*    xmlnsXlink="http://www.w3.org/1999/xlink"*/}
+            {/*    id="Layer_1"*/}
+            {/*    x="0px"*/}
+            {/*    y="0px"*/}
+            {/*    viewBox="0 0 1360 662"*/}
+            {/*    enableBackground="new 0 0 1360 662"*/}
+            {/*    xmlSpace="preserve"*/}
+            {/*    width="24"*/}
+            {/*    height="24"*/}
+            {/*    style={{ transform: "scale(3)" }}*/}
+            {/*>*/}
+            {/*  /!* SVG content unchanged *!/*/}
+            {/*  <path*/}
+            {/*      fill="#ffffff"*/}
+            {/*      d="M499.4,63.4h-5.3H75.5h-5.3c-8.4,0-15.3,6.9-15.3,15.3V84v20.6v280.4v116.4v5.3c0,8.4,6.9,15.3,15.3,15.3  h5.3h418.6h5.3c8.4,0,15.3-6.9,15.3-15.3v-5.3V385.1V196.6l-182.3-21.4c-5,23.2-25.6,40.6-50.3,40.6c-28.4,0-51.5-23.1-51.5-51.5  c0-28.4,23-51.5,51.5-51.5c25.1,0,45.9,17.9,50.5,41.7l182-21.4v-28.4V84v-5.3C514.8,70.3,507.9,63.4,499.4,63.4z"*/}
+            {/*  ></path>*/}
+            {/*  <path*/}
+            {/*      fill="#ffffff"*/}
+            {/*      d="M499.4,53.9h-5.3H75.5h-5.3c-8.4,0-15.3,6.9-15.3,15.3v5.3v20.6v280.4V492v5.3c0,8.4,6.9,15.3,15.3,15.3h5.3  h418.6h5.3c8.4,0,15.3-6.9,15.3-15.3V492V375.6V187.1l-179.3-21.4c-5,23.2-25.6,40.6-50.3,40.6c-28.4,0-51.5-23.1-51.5-51.5  c0-28.4,23-51.5,51.5-51.5c25.1,0,45.9,17.9,50.5,41.7l179-21.4V95.1V74.5v-5.3C514.8,60.8,507.9,53.9,499.4,53.9z"*/}
+            {/*  ></path>*/}
+            {/*  /!* Rest of the SVG paths omitted for brevity *!/*/}
+            {/*</svg>*/}
             <div className="flex gap-2">
               <Button variant="ghost" size="icon" className="text-white hover:text-white/80">
                 <HelpCircle className="w-[1em] h-[1em]" />
@@ -178,9 +178,9 @@ export default function ParkingInterface() {
 
           {/* Header Section */}
           <div className="bg-gradient-to-r from-[#f58426] to-[#e93e3a] text-white px-4 md:px-[140px] py-[30px]">
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">{lot.title}</h1>
-            <h2 className="text-lg md:text-xl mb-1">{lot.subtitle}</h2>
-            <p className="text-sm opacity-90">{lot.address}</p>
+            {/*<h1 className="text-3xl md:text-4xl font-bold mb-2">{lot.title}</h1>*/}
+            {/*<h2 className="text-lg md:text-xl mb-1">{lot.subtitle}</h2>*/}
+            <p className="text-sm opacity-90">1153 Queen St W</p>
           </div>
 
           {/* Hours Banner */}
